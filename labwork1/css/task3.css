@@ -1,0 +1,14 @@
+img {
+    width: 50px;
+    height: 50px
+}
+
+.header {
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    width: 100%
+}

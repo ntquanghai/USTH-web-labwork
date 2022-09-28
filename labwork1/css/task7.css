@@ -1,0 +1,20 @@
+img {
+    border: 5px solid red
+}
+
+.image--container {
+    display:inline-block
+}
+
+.image--container img:last-child {
+    display: none
+}
+
+.image--container:hover img:last-child {
+    display: block
+}
+
+.image--container:hover img:first-child {
+    display: none
+}
+

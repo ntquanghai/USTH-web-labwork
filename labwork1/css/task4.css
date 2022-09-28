@@ -1,0 +1,31 @@
+.thumbnail {
+    width: 50px;
+    height: 50px
+}
+
+.header {
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.image {
+    cursor: pointer;
+}
+
+.full--picture {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.fullPic-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}

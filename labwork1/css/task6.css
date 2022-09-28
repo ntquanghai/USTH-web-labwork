@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+}
+
+.root-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.para-2 {
+    color: red;
+    width: 25%;
+}
+

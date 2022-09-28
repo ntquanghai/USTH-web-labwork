@@ -1,0 +1,36 @@
+.header {
+    height:160px;
+    background-color: #4472C4;
+}
+
+body {
+    margin: 0
+}
+
+.footer {
+    height: 120px;
+    background-color: #4472C4
+}
+
+.root-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.body {
+    flex-grow: 1;
+    display: flex;
+    border : 3px solid blue;
+}
+
+.body-1 {
+    background-color: #DBDBDB;
+    width: 300px;
+    border-right: 3px solid blue;
+}
+
+.body-2 { 
+    background-color: #C5E0B4;
+    flex-grow: 1;
+}

@@ -1,0 +1,29 @@
+td, th {
+    /* border-left: 2px solid black;
+    border-bottom: 2px solid black; */
+    text-align: left;
+    border: 1px solid black;
+    padding: 32px;
+  }
+
+table {
+border: 1px solid black;
+
+}
+
+.header {
+    text-align: center;
+}
+
+
+#main-table {
+    border-spacing: 0px;
+    width: 50%;
+}
+
+.root-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}

@@ -1,0 +1,29 @@
+td,th {
+    /* border-left: 2px solid black;
+    border-bottom: 2px solid black; */
+    text-align: center;
+    border: 0px solid white;
+    padding: 8px;
+    font-size: 24px;
+}
+
+th {
+    background-color: #1F497D
+}
+
+tr:nth-child(even) {
+    background-color: #D0D8E8;
+}
+
+tr:nth-child(odd) {
+    background-color: #E9EDF4;
+}
+
+tr:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.subject-cell {
+    width:320px
+}

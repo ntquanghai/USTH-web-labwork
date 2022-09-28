@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+}
+
+.lists-containers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%
+}
+
+.favMovie--header, .subjects--header { 
+    font-size: 20px;
+    font-weight: bold;
+}

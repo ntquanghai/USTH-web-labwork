@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/labwork1/css/task4.css" />
+    <script>
+        const onClick = (num) => {
+
+            if(num === 1) {
+                document.getElementById("big-image").src = ("img","./images/cat.jpg")
+            }
+            else if(num ===2) {
+                document.getElementById("big-image").src = ("img","./images/duck.jpg")
+            }
+            else if(num ===3) {
+                document.getElementById("big-image").src = ("img","./images/dog.jpg")
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class = "root--container">
+        <h1 class = "header">
+            TASK 4
+        </h1>
+        <div class = "pictures">
+            <a  href="./task4/cat.html">
+                <img class="thumbnail"  src = "./images/cat.jpg"/>
+            </a>
+            <a href="./task4/duck.html" >
+                <img class="thumbnail" src = "./images/duck.jpg"/>
+            </a>
+            <a  href = "./task4/dog.html">
+                <img class="thumbnail" src = "./images/dog.jpg"/>
+            </a>
+        </div> 
+    </div>
+</body>
+</html>
