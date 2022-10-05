@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/task11.css" />
+    <script>
+        const onMultiply = () => {
+            if(!document.getElementById("firstNum").value || !document.getElementById("secondNum").value) {
+                alert("Invalid inputs. Missing fields.")
+            }
+            else {
+                document.getElementById("result").textContent = document.getElementById("firstNum").value*document.getElementById("secondNum").value
+            }
+        }
+
+        const onDivide = () => {
+            if(!document.getElementById("firstNum").value || !document.getElementById("secondNum").value) {
+                alert("Invalid inputs. Missing fields.")
+            }
+            else {
+                document.getElementById("result").textContent = document.getElementById("firstNum").value/document.getElementById("secondNum").value
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Task 11</h1>
+        <div class = "root-container">
+            <h2>Multiply and Divide two numbers</h2>
+            <div class = "inputs-container">
+                <label for = "firstNum">1st Number</label>
+                <input id = "firstNum" type = "number">
+                <label for = "secondNum">2nd Number</label>
+                <input id = "secondNum" type = "number">
+            </div>
+            <div class = "buttons-container">
+                <button onclick=onMultiply() type = "button">Multiply</button>
+                <button onclick= onDivide() type = "button">Divide</button>
+            </div>
+            <div class = "result-container">
+                The Result Is: <div id = "result"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin-bottom: 12px;
+}
+
+.result-container {
+    display: flex;
+}
+
+#result {
+    margin-left: 8px;
+}
